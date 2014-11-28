@@ -218,6 +218,14 @@ To use above field just write
 <form type="bar.foo" name="myName" id="myId" />
 ```
 
+Alternatively if you need a but more manual control of the namespace structure you can use
+
+```xml
+<form type="\Bar\Form\Field\FooField" namespace="true" name="myName" id="myId" />
+```
+
+*By including namespace as an attribute it will assume the type is a usable classname*
+
 ### Field in a sub-namespace
 To create a field in a sub-namespace of Joomla\Form\Field.
 

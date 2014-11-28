@@ -62,7 +62,7 @@ class FormHelper
 	 *
 	 * @return  mixed  Field object on success, false otherwise.
 	 *
-	 * @since   1.0
+	 * @since   __DEPLOY_VERSION__ 
 	 */
 	public static function loadFieldType($type, $new = true, $namespace = false)
 	{
@@ -78,7 +78,7 @@ class FormHelper
 	 *
 	 * @return  mixed  Rule object on success, false otherwise.
 	 *
-	 * @since   1.0
+	 * @since   __DEPLOY_VERSION__ 
 	 */
 	public static function loadRuleType($type, $new = true, $namespace = false)
 	{
@@ -97,7 +97,7 @@ class FormHelper
 	 *
 	 * @return  mixed  Entity object on success, false otherwise.
 	 *
-	 * @since   1.0
+	 * @since   __DEPLOY_VERSION__ 
 	 */
 	protected static function loadType($entity, $type, $new = true, $namespace = false)
 	{
@@ -136,7 +136,7 @@ class FormHelper
 	 *
 	 * @return  mixed  Class name on success or false otherwise.
 	 *
-	 * @since   1.0
+	 * @since   __DEPLOY_VERSION__ 
 	 */
 	public static function loadFieldClass($type, $namespace = false)
 	{
@@ -152,7 +152,7 @@ class FormHelper
 	 *
 	 * @return  mixed  Class name on success or false otherwise.
 	 *
-	 * @since   1.0
+	 * @since   __DEPLOY_VERSION__ 
 	 */
 	public static function loadRuleClass($type, $namespace = false)
 	{
@@ -170,7 +170,7 @@ class FormHelper
 	 *
 	 * @return  mixed  Class name on success or false otherwise.
 	 *
-	 * @since   1.0
+	 * @since   __DEPLOY_VERSION__ 
 	 */
 	protected static function loadClass($entity, $type, $namespace = false)
 	{
